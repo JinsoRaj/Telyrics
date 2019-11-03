@@ -334,7 +334,7 @@ class lyrics(telepot.helper.ChatHandler):
         return lyrics
 
 
-TOKEN = sys.argv[1]
+TOKEN = '1034560027:AAHhkXKbByTX4xbdOfRkmxmFs26CVSkFjOc'
 
 bot = telepot.DelegatorBot(TOKEN, [
     include_callback_query_chat_id(
