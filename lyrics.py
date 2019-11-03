@@ -15,7 +15,7 @@ from telepot.delegate import (
 
 telyrics = telepot.helper.SafeDict()  # thread-safe dict
 
-client_credentials_manager = SpotifyClientCredentials(client_id='YOUR CLIENT ID', client_secret='YOUR CLIENT SECRET', proxies=None)
+client_credentials_manager = SpotifyClientCredentials(client_id='1d34be7a8af44f519e0f09f41da0dd30', client_secret='12c9ce1b64fe46008fc3ed0db3d37d7b', proxies=None)
 spotify = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 class lyrics(telepot.helper.ChatHandler):
